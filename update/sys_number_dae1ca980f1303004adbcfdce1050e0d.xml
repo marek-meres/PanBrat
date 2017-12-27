@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_176504_panbrat_panbrat">x_176504_panbrat_panbrat</category>
+        <maximum_digits>3</maximum_digits>
+        <number>100</number>
+        <prefix>PAN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-23 19:43:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dae1ca980f1303004adbcfdce1050e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAN</sys_name>
+        <sys_package display_value="PanBrat" source="x_176504_panbrat">1ecbf5500f1303004adbcfdce1050e79</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PanBrat">1ecbf5500f1303004adbcfdce1050e79</sys_scope>
+        <sys_update_name>sys_number_dae1ca980f1303004adbcfdce1050e0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-23 19:43:58</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bieglosci" max_length="40" name="x_176504_panbrat_bieglosci" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" display="true" element_reference="true" label="Nazwa" mandatory="true" max_length="40" name="u_nazwa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opis" max_length="500" name="u_opis" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Uwagi" max_length="500" name="u_uwagi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="zw" label="Zwykła/Bojowa" mandatory="true" max_length="40" name="u_zwboj" type="string">
+            <choice>
+                <element label="Zwykła" sequence="0" value="zw"/>
+                <element label="Bojowa" sequence="1" value="boj"/>
+            </choice>
+        </element>
+    </element>
+</database>

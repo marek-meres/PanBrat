@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Liczy kosztw PD</description>
+        <field>u_bb1</field>
+        <global>true</global>
+        <messages/>
+        <name>PanBrat_liczKosztPD</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	// definicja funkcji liczacej
+	function liczKoszt(wartosc, kosztjedn){
+		if (wartosc <= 0) {
+			return 0;
+		}
+		else if (wartosc == 1){
+			return kosztjedn;
+		}
+		else {
+			return wartosc * kosztjedn + liczKoszt(wartosc-1,kosztjedn);
+		}
+	}
+	
+	// liczenie Cech (poziom 2 darmowy, powyzej 3*nowy poziom)
+	var kosztPD = 0;
+	try{
+	kosztPD+= liczKoszt(g_form.getValue('u_krz'),3)-9;
+	kosztPD+= liczKoszt(g_form.getValue('u_zwi'),3)-9;
+	kosztPD+= liczKoszt(g_form.getValue('u_zmy'),3)-9;
+	kosztPD+= liczKoszt(g_form.getValue('u_mdr'),3)-9;
+	kosztPD+= liczKoszt(g_form.getValue('u_leb'),3)-9;
+	kosztPD+= liczKoszt(g_form.getValue('u_fan'),3)-9;		
+	} catch(err){
+		jslog("Błąd w liczeniu kosztu Cech: "+err.message);
+	}
+
+	// liczenie BB (2*nowy poziom)
+	try{
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw1'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw2'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw3'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw4'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw5'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw6'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw7'),2);
+	kosztPD+= liczKoszt(g_form.getValue('u_bbw8'),2);
+	} catch(err) {
+		jslog("Błąd w liczeniu kosztu BB: "+err.message);
+	}
+
+	// liczenie BZ (1*nowy poziom)
+	try{
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw1'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw2'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw3'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw4'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw5'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw6'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw7'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw8'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw9'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw10'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw11'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw12'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw13'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw14'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw15'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw16'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw17'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw18'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw19'),1);
+	kosztPD+= liczKoszt(g_form.getValue('u_bzw20'),1);
+	} catch(err) {
+		jslog("Błąd w liczeniu kosztu BZ: "+err.message);
+	}	
+	
+	// zapis do pola
+	g_form.setValue('u_koszt',kosztPD);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-27 20:21:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9bd2e290f1303004adbcfdce1050e90</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PanBrat_liczKosztPD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PanBrat" source="x_176504_panbrat">1ecbf5500f1303004adbcfdce1050e79</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PanBrat">1ecbf5500f1303004adbcfdce1050e79</sys_scope>
+        <sys_update_name>sys_script_client_b9bd2e290f1303004adbcfdce1050e90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-27 20:43:51</sys_updated_on>
+        <table>x_176504_panbrat_panbrat</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

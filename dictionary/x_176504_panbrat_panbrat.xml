@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="PanBrat" max_length="40" name="x_176504_panbrat_panbrat" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="1" max_length="32" name="u_bb1" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="2" max_length="32" name="u_bb2" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="3" max_length="32" name="u_bb3" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="4" max_length="32" name="u_bb4" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="5" max_length="32" name="u_bb5" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="6" max_length="32" name="u_bb6" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="7" max_length="32" name="u_bb7" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="8" max_length="32" name="u_bb8" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=boj^EQ" reference_qual_condition="u_zwboj=boj^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Poziom" max_length="40" name="u_bbw1" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw2" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw3" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw4" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw5" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw6" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw7" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bbw8" type="integer"/>
+        <element choice="1" label="1" max_length="32" name="u_bz1" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="10" max_length="32" name="u_bz10" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="11" max_length="32" name="u_bz11" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="12" max_length="32" name="u_bz12" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="13" max_length="32" name="u_bz13" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="14" max_length="32" name="u_bz14" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="15" max_length="32" name="u_bz15" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="16" max_length="32" name="u_bz16" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="17" max_length="32" name="u_bz17" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="18" max_length="32" name="u_bz18" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="19" max_length="32" name="u_bz19" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="2" max_length="32" name="u_bz2" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="20" max_length="32" name="u_bz20" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="3" max_length="32" name="u_bz3" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="4" max_length="32" name="u_bz4" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="5" max_length="32" name="u_bz5" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="6" max_length="32" name="u_bz6" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="7" max_length="32" name="u_bz7" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="8" max_length="32" name="u_bz8" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="9" max_length="32" name="u_bz9" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Poziom" max_length="40" name="u_bzw1" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw10" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw11" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw12" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw13" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw14" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw15" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw16" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw17" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw18" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw19" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw2" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw20" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw3" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw4" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw5" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw6" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw7" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw8" type="integer"/>
+        <element label="Poziom" max_length="40" name="u_bzw9" type="integer"/>
+        <element default="2" label="Fantazja" mandatory="true" max_length="40" name="u_fan" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Imię" mandatory="true" max_length="40" name="u_imie" type="string"/>
+        <element label="Koszt w PD" max_length="40" name="u_koszt" read_only="true" type="integer"/>
+        <element default="2" label="Krzepa" mandatory="true" max_length="40" name="u_krz" type="integer"/>
+        <element default="2" label="Łeb" mandatory="true" max_length="40" name="u_leb" type="integer"/>
+        <element default="2" label="Mądrość" mandatory="true" max_length="40" name="u_mdr" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Nacja" max_length="40" name="u_nacja" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opis" max_length="500" name="u_opis" type="string"/>
+        <element label="Starosta" mandatory="true" max_length="32" name="u_star" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="nowa" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Nowa" sequence="0" value="nowa"/>
+                <element label="Do aprobaty" sequence="1" value="doapr"/>
+                <element label="Zaaprobowana" sequence="2" value="zaapr"/>
+                <element label="Poprawiona" sequence="3" value="popr"/>
+                <element label="Usunięta" sequence="4" value="usun"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Uwagi" max_length="500" name="u_uwagi" type="string"/>
+        <element label="Właściciel" mandatory="true" max_length="32" name="u_wlasc" reference="sys_user" type="reference"/>
+        <element default="2" label="Zmysły" mandatory="true" max_length="40" name="u_zmy" type="integer"/>
+        <element default="2" label="Zwinność" mandatory="true" max_length="40" name="u_zwi" type="integer"/>
+        <index name="index">
+            <element name="u_bz7"/>
+        </index>
+        <index name="index2">
+            <element name="u_bz6"/>
+        </index>
+        <index name="index3">
+            <element name="u_bz9"/>
+        </index>
+        <index name="index4">
+            <element name="u_bz8"/>
+        </index>
+        <index name="index5">
+            <element name="u_star"/>
+        </index>
+        <index name="index6">
+            <element name="u_bz3"/>
+        </index>
+        <index name="index7">
+            <element name="u_bz2"/>
+        </index>
+        <index name="index8">
+            <element name="u_bz5"/>
+        </index>
+        <index name="index9">
+            <element name="u_bz4"/>
+        </index>
+        <index name="index10">
+            <element name="u_bz10"/>
+        </index>
+        <index name="index11">
+            <element name="u_bz1"/>
+        </index>
+        <index name="index12">
+            <element name="u_bz11"/>
+        </index>
+        <index name="index13">
+            <element name="u_bz12"/>
+        </index>
+        <index name="index14">
+            <element name="u_bz13"/>
+        </index>
+        <index name="index15">
+            <element name="u_bz14"/>
+        </index>
+        <index name="index16">
+            <element name="u_bz15"/>
+        </index>
+        <index name="index17">
+            <element name="u_bz16"/>
+        </index>
+        <index name="index18">
+            <element name="u_bz17"/>
+        </index>
+        <index name="index19">
+            <element name="u_bz18"/>
+        </index>
+        <index name="index20">
+            <element name="u_bz19"/>
+        </index>
+        <index name="index21">
+            <element name="u_wlasc"/>
+        </index>
+        <index name="index22">
+            <element name="u_bb7"/>
+        </index>
+        <index name="index23">
+            <element name="u_bz20"/>
+        </index>
+        <index name="index24">
+            <element name="u_bb6"/>
+        </index>
+        <index name="index25">
+            <element name="u_bb8"/>
+        </index>
+        <index name="index26">
+            <element name="u_bb3"/>
+        </index>
+        <index name="index27">
+            <element name="u_bb2"/>
+        </index>
+        <index name="index28">
+            <element name="u_bb5"/>
+        </index>
+        <index name="index29">
+            <element name="u_bb4"/>
+        </index>
+        <index name="index30">
+            <element name="u_bb1"/>
+        </index>
+    </element>
+</database>

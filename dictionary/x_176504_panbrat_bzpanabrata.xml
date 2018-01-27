@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Biegłości Zwykłe Pana Brata" max_length="40" name="x_176504_panbrat_bzpanabrata" type="collection">
+        <element display="true" label="BieglZwykla" mandatory="true" max_length="32" name="u_bieglzwykla" reference="x_176504_panbrat_bieglosci" reference_qual="u_zwboj=zw^EQ" reference_qual_condition="u_zwboj=zw^EQ" type="reference"/>
+        <element label="PanBrat" mandatory="true" max_length="32" name="u_panbrat" reference="x_176504_panbrat_panbrat" type="reference"/>
+        <element label="Poziom" mandatory="true" max_length="40" name="u_poziom" type="integer"/>
+        <index name="index">
+            <element name="u_panbrat"/>
+        </index>
+        <index name="index2">
+            <element name="u_bieglzwykla"/>
+        </index>
+    </element>
+</database>

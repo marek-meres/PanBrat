@@ -46,16 +46,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:38:06</sys_created_on>
+            <sys_created_on>2017-12-29 15:35:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9fe66a250f1303004adbcfdce1050e75</sys_id>
+            <sys_id>1b82c0120f5303004adbcfdce1050e39</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_176504_panbrat_panbrat" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">60e94adc0f1303004adbcfdce1050e02</sys_ui_form>
-            <sys_ui_section caption="Biegłości zwykłe" display_value="Biegłości zwykłe" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">9fe62a250f1303004adbcfdce1050e3a</sys_ui_section>
+            <sys_ui_section caption="Biegłości Zwykłe" display_value="Biegłości Zwykłe" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">df82c0120f5303004adbcfdce1050e36</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:38:06</sys_updated_on>
+            <sys_updated_on>2017-12-29 15:35:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -64,12 +64,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f98f02d00f5303004adbcfdce1050eaf</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_176504_panbrat_panbrat" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">60e94adc0f1303004adbcfdce1050e02</sys_ui_form>
             <sys_ui_section caption="Metadane" display_value="Metadane" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b18f02d00f5303004adbcfdce1050eac</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:38:06</sys_updated_on>
+            <sys_updated_on>2017-12-29 15:35:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_176504_panbrat_panbrat</name>

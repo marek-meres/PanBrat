@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_176504_panbrat.PanBrat_KosztBZ</api_name>
+        <client_callable>true</client_callable>
+        <description>Liczy koszt wszystkich bieglosci zwyklych pana brata z tabeli 'Biegłości Zwykłe Pana Brata'</description>
+        <name>PanBrat_KosztBZ</name>
+        <script><![CDATA[var PanBrat_KosztBZ = Class.create();
+PanBrat_KosztBZ.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	liczKosztBZ : function() {
+			// sysparm_pbId to id rekordu z tabeli PanBrat
+			var pbId = this.getParameter('sysparm_pbId');
+			var pb = new GlideRecord('x_176504_panbrat_panbrat');
+			pb.get(pbId);
+			gs.info('Szukanie BZ dla: '+pbId+' numer: '+pb.getValue('number')+ ' Imie: '+pb.getValue('u_imie'));
+			// szukanie wszystkich rekordow bieglosci zwyklych tego pana brata
+			var pbBZ = new GlideRecord('x_176504_panbrat_bzpanabrata');
+			pbBZ.addQuery('u_panbrat',pbId);
+			pbBZ.query();
+gs.info("liczba rekordow w tabeli: " + pbBZ.getRowCount());		
+		var encodedQuery = pbBZ.getEncodedQuery(); 
+gs.info('EncodedQUery='+encodedQuery);
+			while (pbBZ.next()){
+				gs.info('BZ znalezione: '+pbBZ.getValue('u_biegzwykla.u_nazwa')+' ,wartosc: '+pbBZ.getValue('u_poziom'));
+			}
+		
+			// !!! na razie zwracamy 0
+			return '0';
+	},
+    type: 'PanBrat_KosztBZ'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-07 16:31:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>46d0ea090f6303004adbcfdce1050ec3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>PanBrat_KosztBZ</sys_name>
+        <sys_package display_value="PanBrat" source="x_176504_panbrat">1ecbf5500f1303004adbcfdce1050e79</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PanBrat">1ecbf5500f1303004adbcfdce1050e79</sys_scope>
+        <sys_update_name>sys_script_include_46d0ea090f6303004adbcfdce1050ec3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-08 21:59:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

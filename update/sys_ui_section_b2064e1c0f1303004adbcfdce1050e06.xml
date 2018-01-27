@@ -5,13 +5,13 @@
             <element>u_imie</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>6fd4a6e10f1303004adbcfdce1050ec9</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>f797e20d0f6303004adbcfdce1050eb7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_koszt</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>27d4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>bf97e20d0f6303004adbcfdce1050eb7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>a7d4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>3397e20d0f6303004adbcfdce1050eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,55 +47,69 @@
             <element>u_nacja</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>2bd4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>b397e20d0f6303004adbcfdce1050eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>3797e20d0f6303004adbcfdce1050eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>abd4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>b797e20d0f6303004adbcfdce1050eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_opis</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>2fd4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>3b97e20d0f6303004adbcfdce1050eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_uwagi</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-27 19:29:07</sys_created_on>
-            <sys_id>afd4a6e10f1303004adbcfdce1050eca</sys_id>
+            <sys_created_on>2018-01-07 16:39:53</sys_created_on>
+            <sys_id>bb97e20d0f6303004adbcfdce1050eb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_176504_panbrat_panbrat" sys_domain="global" view="Default view">b2064e1c0f1303004adbcfdce1050e06</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-27 19:29:07</sys_updated_on>
+            <sys_updated_on>2018-01-07 16:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

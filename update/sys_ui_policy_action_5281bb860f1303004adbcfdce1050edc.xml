@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_bbw3</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-29 14:21:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5281bb860f1303004adbcfdce1050edc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bbw3</sys_name>
+        <sys_package display_value="PanBrat" source="x_176504_panbrat">1ecbf5500f1303004adbcfdce1050e79</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PanBrat">1ecbf5500f1303004adbcfdce1050e79</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5281bb860f1303004adbcfdce1050edc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-29 14:21:12</sys_updated_on>
+        <table>x_176504_panbrat_panbrat</table>
+        <ui_policy display_value="Widocznosc_BB3">c311b7860f1303004adbcfdce1050e12</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
